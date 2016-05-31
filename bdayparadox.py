@@ -53,9 +53,9 @@ while i<5:
 	graph75prob[i]=prob*100
 	i=i+1
 
-plt.plot(graph23exps, graph23prob, 'ro')
-plt.axis([0, 1000, 0, 100])
+plt.plot(graph23exps, graph23prob, 'ro')	# plotting probablity statistics for 23 people
+plt.plot(graph75exps, graph75prob, 'bs')	# plotting probablity statistics for 75 people
+plt.axis([0, 1000, 0, 120])
 plt.show()
 
-#print graph75
 #end of code
