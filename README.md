@@ -23,3 +23,14 @@ $python svc.py <filename> - to commit changes in a file
 $python svc.py <filename> <version no.> - to display the content of <version no.>th version of the file.
 
 Additional comments: This program is not complete yet. svc.py is the main version control program. Constraints on file operation has not been implemented yet. There exists some confusion within problem statement that needs to be cleared before proceeding. However, this program in its current form works for a text file will all sorts of changes allowed in the file.
+
+*******************************************************************************************************************************
+Assignment no. 3
+Write a program to list duplicate files from hard drive.
+
+Associated code file: symlink.py
+
+Instruction of execution:
+$python symlink.py
+
+Additional comments: This is just a module of the intended program. This will list all the softlinks present in the volume (hard drive) and provide users with the option to delete them all. Dupicate files may be of more types. Currently working on those.
