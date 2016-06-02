@@ -16,7 +16,7 @@ Additional comments: This program performs the experiment to verify bithday para
 Assignment no. 2:
 Create a simple version control program "svc" which performs version control for a text file.
 
-##Version 1
+#Version 1
 Associated code file: svc.py
 
 Instruction of execution:
@@ -25,7 +25,7 @@ $python svc.py <filename> <version no.> - to display the content of <version no.
 
 Additional comments: This program is not complete yet. svc.py is the main version control program. Constraints on file operation has not been implemented yet. There exists some confusion within problem statement that needs to be cleared before proceeding. However, this program in its current form works for a text file will all sorts of changes allowed in the file.
 
-##Version 2
+#Version 2
 Associated code files: fileopes_v2.py, svc_v2.py
 
 Instruction of excution:
@@ -38,9 +38,18 @@ Additional comments: This program is another approach for performing version con
 Assignment no. 3
 Write a program to list duplicate files from hard drive.
 
+#Version 1
 Associated code file: symlink.py
 
 Instruction of execution:
 $python symlink.py
 
 Additional comments: This is just a module of the intended program. This will list all the softlinks present in the volume (hard drive) and provide users with the option to delete them all. Dupicate files may be of more types. Currently working on those.
+
+#Version 2
+Associated code file: listdupli.py
+
+Instruction of execution:
+$python listdupli.py
+
+Additional comments: This program is capable of listing softlinks, and all files with same content(duplicate) which includes hardlinks. The user can choose to delete the duplicate files and/or softlinks. Only one among the copies of a file will remain after deletion. All softlinks will be deleted.
