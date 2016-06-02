@@ -53,3 +53,15 @@ Instruction of execution:
 $python listdupli.py
 
 Additional comments: This program is capable of listing softlinks, and all files with same content(duplicate) which includes hardlinks. The user can choose to delete the duplicate files and/or softlinks. Only one among the copies of a file will remain after deletion. All softlinks will be deleted.
+
+*******************************************************************************************************************************
+Assignment no. 4
+Design a simple filesystem called TextFS
+
+#Version 1
+Associated code file: textfs.py
+
+Instruction of execution:
+$python textfs.py
+
+Additional comments: Not complete yet. This program emulates a command interface where user can create files, list them, and print file contents. The file storage and access is text based which is personally designed. User cannot delete files or copy external file content to internal files in this version.
