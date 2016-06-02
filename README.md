@@ -64,4 +64,4 @@ Associated code file: textfs.py
 Instruction of execution:
 $python textfs.py
 
-Additional comments: Not complete yet. This program emulates a command interface where user can create files, list them, and print file contents. The file storage and access is text based which is personally designed. User cannot delete files or copy external file content to internal files in this version.
+Additional comments: Not complete yet. This program emulates a command interface for a filesystem where user can create files, list them, and print file contents. The file storage and access is text based which is personally designed. User cannot delete files or copy external file content to internal files in this version.
