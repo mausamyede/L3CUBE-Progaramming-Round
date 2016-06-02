@@ -34,7 +34,7 @@ scanvol()
 
 while True:
 	choice = raw_input("Do you want to remove these links(Y/n): ")
-	if choice == "Y" or "y":
+	if choice == "Y":
 		purge()
 		break
 	elif choice == "n":
