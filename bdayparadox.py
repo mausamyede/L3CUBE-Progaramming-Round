@@ -11,8 +11,8 @@ while i<5:
 	noofexps = input("Enter the number of times each experiment is to be performed:") #no. of times the experiment is repeated
 	graph23exps[i]=int(noofexps)
 	graph75exps[i]=int(noofexps)
-	experiment23 = np.random.randint(1,356,(23,int(noofexps))) #simulating scenario of 23 people in a place with random birthdays assigned
-	experiment75 = np.random.randint(1,356,(75,int(noofexps))) #simulating scenario of 75 people in a place with random birthdays assigned
+	experiment23 = np.random.randint(1,366,(23,int(noofexps))) #simulating scenario of 23 people in a place with random birthdays assigned
+	experiment75 = np.random.randint(1,366,(75,int(noofexps))) #simulating scenario of 75 people in a place with random birthdays assigned
 	countpos=0 #count positive cases
 	countneg=0 #count negative cases
 
