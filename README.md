@@ -26,14 +26,14 @@ $python svc.py <filename> <version no.> - to display the content of <version no.
 
 Additional comments: This program is not complete yet. svc.py is the main version control program. Constraints on file operation has not been implemented yet. There exists some confusion within problem statement that needs to be cleared before proceeding. However, this program in its current form works for a text file will all sorts of changes allowed in the file.
 
-#Version 2
+#Final Version
 Associated code files: fileopes_v2.py, svc_v2.py
 
 Instruction of excution:
 Keep both the files in same directory.
 $python fileops_v2.py 
 
-Additional comments: This program is another approach for performing version control. This program gives an interface where user can create a file, append a line to it, delete any line from it, commit changes done in it, and also revert the file back to any previous version. File operation constraints are met. Currently, file cannot revert to back to future version after being reverted to past version.
+Additional comments: This program is another approach for performing version control. This program gives an interface where user can create a file, append a line to it, delete any line from it, commit changes done in it, and also revert the file back to any previous version. File operation constraints are met. File can revert back to future version after being reverted to a past version.
 
 *******************************************************************************************************************************
 Assignment no. 3
