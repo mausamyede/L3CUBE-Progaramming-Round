@@ -1,7 +1,7 @@
 import os
 import fileinput
 
-### Currently supports only file creation, listing, and printing file contents. Working on remaining features.
+## Fully functional now
 
 print 'Welcome to textFS'
 print '1. create <filename> - Create a new file.'
