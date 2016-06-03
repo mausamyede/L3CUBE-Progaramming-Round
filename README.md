@@ -65,3 +65,11 @@ Instruction of execution:
 $python textfs.py
 
 Additional comments: Not complete yet. This program emulates a command interface for a filesystem where user can create files, list them, and print file contents. The file storage and access is text based which is personally designed. User cannot delete files or copy external file content to internal files in this version.
+
+#Version 2
+Associated code file: textfs_v2.py
+
+Instruction of execution:
+$python textfs_v2.py
+
+Additional comments: This version supports creating, deleting, listing and printing contents of file. It also supports copying data from external files to internal file.
