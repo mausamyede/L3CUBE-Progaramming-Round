@@ -5,6 +5,7 @@ Assignments given by L3CUBE as a part of programming round.
 Assignment no. 1:
 Write a code to verify that Birthday paradox is really valid.
 
+#Final version
 Associated code file: bdayparadox.py
 
 Instructions of exuction:
@@ -46,7 +47,7 @@ $python symlink.py
 
 Additional comments: This is just a module of the intended program. This will list all the softlinks present in the volume (hard drive) and provide users with the option to delete them all. Dupicate files may be of more types. Currently working on those.
 
-#Version 2
+#Final version
 Associated code file: listdupli.py
 
 Instruction of execution:
@@ -66,7 +67,7 @@ $python textfs.py
 
 Additional comments: Not complete yet. This program emulates a command interface for a filesystem where user can create files, list them, and print file contents. The file storage and access is text based which is personally designed. User cannot delete files or copy external file content to internal files in this version.
 
-#Version 2
+#Final version
 Associated code file: textfs_v2.py
 
 Instruction of execution:
